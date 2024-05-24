@@ -52,15 +52,28 @@ function draw() {
 
   // Custom colors for clusters
   const clusterColors = [
-  'red',
-  'blue',
-  'purple',
-  'orange',
-  'cyan',
-  'magenta',
-  'lime',
-  'pink'
-];
+    'red', 'green', 'blue', 'yellow', 'purple', 'orange', 'pink', 'cyan', 
+    'magenta', 'lime', 'teal', 'lavender', 'brown', 'beige', 'maroon', 
+    'mint', 'olive', 'coral', 'navy', 'grey', 'white', 'black', 'peach', 
+    'plum', 'ivory', 'indigo', 'gold', 'salmon', 'chartreuse', 'chocolate', 
+    'crimson', 'fuchsia', 'orchid', 'peru', 'tomato', 'turquoise', 'violet', 
+    'wheat', 'khaki', 'azure', 'slate', 'aquamarine', 'amethyst', 'bisque', 
+    'cadetblue', 'cornflowerblue', 'darkcyan', 'darkgoldenrod', 'darkgreen', 
+    'darkkhaki', 'darkmagenta', 'darkolivegreen', 'darkorange', 'darkorchid', 
+    'darksalmon', 'darkseagreen', 'darkslateblue', 'darkslategray', 'darkturquoise', 
+    'darkviolet', 'deeppink', 'deepskyblue', 'dodgerblue', 'firebrick', 
+    'forestgreen', 'gainsboro', 'goldenrod', 'hotpink', 'indianred', 
+    'lightcoral', 'lightgreen', 'lightpink', 'lightsalmon', 'lightseagreen', 
+    'lightskyblue', 'lightslategray', 'lightsteelblue', 'limegreen', 'mediumaquamarine', 
+    'mediumblue', 'mediumorchid', 'mediumpurple', 'mediumseagreen', 'mediumslateblue', 
+    'mediumspringgreen', 'mediumturquoise', 'mediumvioletred', 'midnightblue', 'mistyrose', 
+    'moccasin', 'navajowhite', 'oldlace', 'olivedrab', 'orangered', 
+    'palegoldenrod', 'palegreen', 'paleturquoise', 'palevioletred', 'papayawhip', 
+    'peachpuff', 'powderblue', 'rosybrown', 'royalblue', 'saddlebrown', 
+    'sandybrown', 'seagreen', 'sienna', 'skyblue', 'slateblue', 
+    'slategray', 'springgreen', 'steelblue', 'tan', 'thistle', 
+    'yellowgreen'
+  ];
 
 
   // Draw data points with varying sizes and custom colors
